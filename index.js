@@ -59,7 +59,7 @@
    * @api public
    */
 
-  vector3.zero = function (self) {
+  vector4.zero = function (self) {
     self[0] = 0.0;
     self[1] = 0.0;
     self[2] = 0.0;
@@ -68,4 +68,24 @@
     return self;
   };
   
+  /**
+   * sum
+   * Set vector to the sum of `a` and `b`.
+   * 
+   * @param {Float32Array} self destination vector
+   * @param {Float32Array} a vector
+   * @param {Float32Array} b vector
+   * @return {Float32Array} destination vector
+   * @api public
+   */
+
+  vector4.sum = function (self, a, b) {
+    self[0] = a[0] + b[0];
+    self[1] = a[1] + b[1];
+    self[2] = a[2] + b[2];
+    self[3] = a[3] + b[3];
+
+    return self;
+  };
+
 }(this));
