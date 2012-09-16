@@ -17,7 +17,7 @@
    * Library version.
    */
 
-  vector4.version = '0.0.0';
+  vector4.version = '0.1.0';
 
   /**
    * create
@@ -219,5 +219,5 @@
 
     return sqrt(x*x + y*y + z*z + w*w);
   };
-  
+
 }(this));
