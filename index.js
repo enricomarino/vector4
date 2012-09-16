@@ -107,5 +107,24 @@
 
     return self;
   };
-  
+
+  /**
+   * add
+   * Add vector.
+   * 
+   * @param {Float32Array} self destination vector
+   * @param {Float32Array} v vector
+   * @return {Float32Array} destination vector
+   * @api public
+   */
+
+  vector4.add = function (self, v) {
+    self[0] += v[0];
+    self[1] += v[1];
+    self[2] += v[2];
+    self[3] += v[3];
+
+    return self;
+  };
+
 }(this));
