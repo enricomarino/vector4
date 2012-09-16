@@ -6,7 +6,7 @@
   },
   "name": "vector4",
   "description": "JavaScript math library for 4d vector",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/onirame/vector4",
   "repository": {
     "type": "git",
