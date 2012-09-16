@@ -88,4 +88,24 @@
     return self;
   };
 
+  /**
+   * diff
+   * Set vector to the difference of `a` and `b`.
+   * 
+   * @param {Float32Array} self destination vector
+   * @param {Float32Array} a vector
+   * @param {Float32Array} b vector
+   * @return {Float32Array} destination vector
+   * @api public
+   */
+
+  vector4.diff = function (self, a, b) {
+    self[0] = a[0] - b[0];
+    self[1] = a[1] - b[1];
+    self[2] = a[2] - b[2];
+    self[3] = a[3] - b[3];
+
+    return self;
+  };
+  
 }(this));
