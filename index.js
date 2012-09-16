@@ -182,5 +182,24 @@
 
     return self;
   };
+
+  /**
+   * scale
+   * Scale vector.
+   * 
+   * @param {Float32Array} self destination vector
+   * @param {Number} k scaling value
+   * @return {Float32Array} destination vector
+   * @api public
+   */
+
+  vector4.scale = function (self, k) {
+    self[0] *= k;
+    self[1] *= k;
+    self[2] *= k;
+    self[3] *= k;
+
+    return self;
+  };
   
 }(this));
