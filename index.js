@@ -201,5 +201,23 @@
 
     return self;
   };
+
+  /**
+   * length
+   * Get vector length.
+   * 
+   * @param {Float32Array} self vector
+   * @return {Number} vector length
+   * @api public
+   */
+
+  vector4.length = function (self) {
+    var x = self[0];
+    var y = self[1];
+    var z = self[2];
+    var w = self[3];
+
+    return sqrt(x*x + y*y + z*z + w*w);
+  };
   
 }(this));
