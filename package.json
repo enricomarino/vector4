@@ -1,16 +1,25 @@
 {
   "author": {
     "name": "Enrico Marino",
-    "email": "enrico.marino@email.com",
-    "site": "http://onirame.no.de"
+    "email": "enrico.marino@email.com"
   },
+  "maintainers": [
+    {
+      "name": "Enrico Marino",
+      "email": "enrico.marino@email.com"
+    },
+    {
+      "name": "Federico Spini",
+      "email": "federico.spini@gmail.com"
+    }
+  ],
   "name": "vector4",
-  "description": "JavaScript math library for 4d vector",
+  "description": "JavaScript 4d vector library",
   "version": "0.1.0",
-  "homepage": "https://github.com/onirame/vector4",
+  "homepage": "https://github.com/cvdlab/vector4",
   "repository": {
     "type": "git",
-    "url": "git://github.com/onirame/vector4.git"
+    "url": "git://github.com/cvdlab/vector4.git"
   },
   "main": "index.js",
   "engines": {
