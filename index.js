@@ -1,8 +1,9 @@
 /* !
  * vector4
  * JavaScript 4d vector library
- * Copyright (c) 2012 Enrico Marino
- * MIT License
+ *
+ * @copyright 2013 Enrico Marino
+ * @license MIT
  */
 
 /**
@@ -15,7 +16,7 @@ var vector4 = exports;
  * Library version.
  */
 
-vector4.version = '0.1.1';
+vector4.version = '0.2.0';
 
 /**
  * create

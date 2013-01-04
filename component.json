@@ -1,0 +1,14 @@
+{
+  "name": "vector4",
+  "repo": "component-math/vector4",
+  "version": "0.2.0",
+  "description": "JavaScript 4d vector library",
+  "keywords": ["math", "vector", "4d"],
+  "scripts": ["index.js"],
+  "dependencies": {
+  },
+  "development": {
+    "component/assert": "*"
+  },
+  "license": "MIT"
+}
