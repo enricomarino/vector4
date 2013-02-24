@@ -1,6 +1,6 @@
 {
   "name": "vector3",
-  "description": "JavaScript 4d vector library",
+  "description": "Vector 4D component",
   "version": "0.2.0",
   "author": {
     "name": "Enrico Marino",
@@ -16,10 +16,10 @@
       "url": "http://federicospini.com"
     }
   ],
-  "homepage": "https://github.com/component-math/vector4",
+  "homepage": "https://github.com/enricomarino/vector4",
   "repository": {
     "type": "git",
-    "url": "git://github.com/component-math/vector4.git"
+    "url": "git://github.com/enricomarino/vector4.git"
   },
   "main": "index.js",
   "engines": {
