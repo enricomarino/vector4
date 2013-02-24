@@ -1,10 +1,10 @@
 # vector4
 
-JavaScript 4d vector library
+Vector 4D component
 
 ## Installation
 
-    $ component install component-math/vector4
+    $ component install enricomarino/vector4
 
 ## License
 
